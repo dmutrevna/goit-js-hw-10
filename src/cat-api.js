@@ -5,7 +5,7 @@ const API_KEY =
   'live_ccVhqfgilnnfIz8OceYqMY7Kgt8bYZ4dugDs2BpGT9qwyMi01jz8BuRfyVgvXJcc';
 
 export const fetchBreeds = () => {
-  return fetch(`${BASE_URL}/breeds123`, {
+  return fetch(`${BASE_URL}/breeds`, {
     headers: {
       'x-api-key': API_KEY,
     },
