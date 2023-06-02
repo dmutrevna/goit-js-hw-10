@@ -1,5 +1,3 @@
-import Notiflix from 'notiflix';
-
 const BASE_URL = 'https://api.thecatapi.com/v1';
 const API_KEY =
   'live_ccVhqfgilnnfIz8OceYqMY7Kgt8bYZ4dugDs2BpGT9qwyMi01jz8BuRfyVgvXJcc';
