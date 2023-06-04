@@ -30,7 +30,6 @@ fetchBreeds()
 breedSelect.addEventListener('change', () => {
   loader.style.display = 'block';
   error.style.display = 'none';
-  breedSelect.style.display = 'none';
   catInfo.style.display = 'none';
 
   const selectedBreedId = breedSelect.value;
