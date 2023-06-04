@@ -30,6 +30,7 @@ fetchBreeds()
 breedSelect.addEventListener('change', () => {
   loader.style.display = 'block';
   error.style.display = 'none';
+  breedSelect.style.display = 'none';
   catInfo.style.display = 'none';
 
   const selectedBreedId = breedSelect.value;
@@ -47,6 +48,7 @@ breedSelect.addEventListener('change', () => {
       Notiflix.Notify.failure(
         'Oops! Something went wrong! Try reloading the page!'
       );
+      breedSelect.style.display = 'block';
       console.log(error);
     });
 });
